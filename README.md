@@ -16,7 +16,7 @@ React • TypeScript • Vite • Tailwind CSS • FastAPI • PostgreSQL • Ge
 ## 🚀 Run Locally
 
 ### Backend
-```bash
+
 cd backend
 python3 -m venv venv
 source venv/bin/activate
@@ -31,7 +31,8 @@ GEMINI_API_KEY=your-gemini-api-key
 Run:
 uvicorn app.main:app --reload
 
-Frontend
+### Frontend
+
 Open a new terminal:
 cd frontend
 npm install
